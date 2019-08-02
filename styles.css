@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Space-Invaders";
+    src: url("fonts/spaceinvaders.woff") format("woff"),
+         url("fonts/spaceinvaders.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  } 
+
+#browser {
+    min-height: 600px;
+    min-width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-image: url("images/space.jpeg");
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 300%
+}
+
+#menu li{
+    list-style-type: none;
+    padding: 10px;
+    font-size: 125%;
+    text-align: left;
+}
+
+#playArea {
+    padding: 5px;
+    border: 5px solid black;
+    background-image: url("images/white.png");
+}
